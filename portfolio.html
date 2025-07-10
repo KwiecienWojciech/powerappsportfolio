@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Power by WK – My Portfolio</title>
+  <link rel="stylesheet" href="style/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">PowerBy WK</div>
+      <div class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="index.html#about">About Me</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="portfolio-main" class="portfolio-section fade-in-on-load" style="padding-top: 100px;">
+      <div class="container">
+        <h2 class="fade-in-on-load">My Power Apps Portfolio</h2>
+        <div class="portfolio-grid">
+
+          <div class="portfolio-item fade-in-on-scroll">
+            <div class="project-header">
+              <img src="images/DashbaordDesktop.jpg" alt="Test Order Prototyping App Thumbnail" class="project-thumbnail">
+              <div class="project-info-overlay">
+                  <h4>Test Order Prototyping App</h4>
+              </div>
+            </div>
+            <div class="project-details">
+                <h3>Test Order Prototyping App</h3>
+                <p>An application for streamlining documentation, facilitating the validation of prototypes.</p>
+                <div class="project-tech-stack">
+                    <span>Power Apps Canvas</span>
+                    <span>SharePoint Data List</span>
+                    <span>Power Automate</span>
+                    <span>Azure AI</span>
+                    <span>Azure Functions</span>
+                </div>
+                <div class="project-buttons">
+                    <a href="projects/test-order-app.html" class="btn primary-btn project-btn">View Project <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+          </div>
+
+          <div class="portfolio-item fade-in-on-scroll">
+            <div class="project-header">
+              <img src="images/Orders.jpg" alt="IT Devices Request App Thumbnail" class="project-thumbnail">
+              <div class="project-info-overlay">
+                  <h4>IT Devices Request App</h4>
+              </div>
+            </div>
+            <div class="project-details">
+                <h3>IT Devices Request App</h3>
+                <p>A Model-driven application for managing IT device requests, approvals, and inventory. It automates the request workflow, improves asset tracking, and enhances communication between users and the IT department.</p>
+                <div class="project-tech-stack">
+                    <span>Power Apps Canvas</span>
+                    <span>SharePoint Data List</span>
+                    <span>Power Automate</span>
+                </div>
+                <div class="project-buttons">
+                    <a href="projects/it-devices-app.html" class="btn primary-btn project-btn">View Project <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 PowerBy WK. All rights reserved.</p>
+      </div>
+  </footer>
+
+  <script src="script/main.js"></script>
+</body>
+</html>
